@@ -1,4 +1,4 @@
-function [y] = ar_predict(a, y0, N)
+function [y] = a_p(a, y0, N)
 p = length(a) - 1; 
 y = zeros(N, 1);
 y(1:p) = y0; 

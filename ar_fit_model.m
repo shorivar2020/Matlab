@@ -1,4 +1,4 @@
-function [a] = ar_fit_model(y, p)
+function [a] = a_f(y, p)
 T = length(y)-1;
 W = p;
 H = T-p+1;
